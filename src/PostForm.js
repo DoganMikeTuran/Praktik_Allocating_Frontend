@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from axios
+
 class PostForm extends Component {
     constructor(props) {
         super(props);
@@ -12,7 +12,7 @@ class PostForm extends Component {
     changeHandler = (event) => {
         this.setState({ [event.target.name]: event.target.value })
     }
-    
+
     submitHandler = e => {
         e.preventDefault()
         console.log(this.state)
