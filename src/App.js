@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Test from './Test'
 import PostForm from './PostForm';
+import Greet from './dsdslu';
 
 function App() {
   return (
     <div className="App">
-      <PostForm />
+
+      <Greet name={"Tony"} />
     </div>
   );
 }
